@@ -12,6 +12,8 @@ import { registerUser } from '../../store/slices/userSlice'
 import { FormInput } from '../../components/FormInput/FormInput'
 import { Button, useToaster } from '@gravity-ui/uikit'
 
+import { motion } from 'framer-motion'
+
 import styles from './RegisterForm.module.sass'
 
 interface AuthFormProps {
@@ -56,7 +58,14 @@ export const RegisterForm: FC<AuthFormProps> = ({ className }) => {
 	}
 
 	return (
-		<div className={clsx(className, styles.wrapper)}>
+		<motion.div
+			style={{ position: 'relative' }}
+			initial={{ opacity: 0, left: '-200%' }}
+			animate={{ opacity: 1, left: '0' }}
+			exit={{ opacity: 0, left: '200%' }}
+			transition={{ duration: 0.2 }}
+			className={clsx(className, styles.wrapper)}
+		>
 			<form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
 				<FormInput
 					title='Email'
@@ -83,6 +92,6 @@ export const RegisterForm: FC<AuthFormProps> = ({ className }) => {
 					Register
 				</Button>
 			</form>
-		</div>
+		</motion.div>
 	)
 }
