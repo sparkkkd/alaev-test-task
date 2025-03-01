@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "email": "roydog228@gmail.com",
+      "password": "$2a$10$7miqMwHUX3BjBZy8p.9XP.LCmXm1Wz0.OHx.5LEkzmYP5b4VR1kV2",
+      "id": 1
+    },
+    {
+      "email": "akaevs@bk.ru",
+      "password": "$2a$10$kxO/7R1AuFJDuy8eyOtzLuPnUUjQG4vT0JlRkb2VPD1OPhm71EACy",
+      "id": 2
+    },
+    {
+      "email": "akaevss@bk.ru",
+      "password": "$2a$10$.aorpXwGdErW0jj258z.EOYl28qpOR8EtwXrkaApYCzZSpRQsX/42",
+      "name": "name",
+      "id": 3
+    },
+    {
+      "email": "testte@test.ru",
+      "password": "$2a$10$4eWj3LiGOe6zoEy6Zcx1FORykF5gEktHTQXG.pE/4.I2w.boumla6",
+      "id": 4
+    },
+    {
+      "email": "dasdas@mail.ry",
+      "password": "$2a$10$1mJFozHjX/SLyI5suaI6sOQRfDubVjutrPZx1mwG/GBdFzhAK0bfy",
+      "id": 5
+    },
+    {
+      "email": "gamid353@mail.ru",
+      "password": "$2a$10$MfwSJmrb9U2aISofPh4Kl.xcn.DDA3OE8UbGwng3mnws//YeA2SnG",
+      "name": "Test",
+      "id": 6
+    },
+    {
+      "email": "stonedddaga11in@gmail.com",
+      "password": "$2a$10$m9NvZRd3xnTTROid5LMfeelz9zjCm3iE6bB3vIvqTLCvSHvfJx5vK",
+      "name": "Джалал",
+      "id": 7
+    },
+    {
+      "email": "gamid12353@mail.ru",
+      "password": "$2a$10$Zd882TVXVrNXSqpFqP.NneOBKqgZuFglu24AImCS2Wc1HEgmO.Q8S",
+      "name": "Джалал",
+      "id": 8
+    },
+    {
+      "email": "admin@admin.com",
+      "password": "$2a$10$bCVXMomvoJMWdfFJXMcEeOEXccVugQY0vHxxu2hJdnG6F0mcvrNFO",
+      "name": "Admin",
+      "id": 9
+    }
+  ],
+  "info": {
+    "message": "Little story about company"
+  },
+  "checkAuth": {}
+}
