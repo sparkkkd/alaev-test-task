@@ -35,6 +35,8 @@ export const Profile: FC<ProfileProps> = ({ className }) => {
 	}
 
 	const handleUpdateRequest = async () => {
+		controller.current = new AbortController()
+
 		setIsLoading(true)
 		setOpen(true)
 
